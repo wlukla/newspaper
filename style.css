@@ -34,7 +34,15 @@
   padding: 5px 20px;
   width: 100%;
   background-color: lightgrey;
+}
+
+.nav-container__date {
   font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.nav-container__small-date {
+  font-size: 1.2rem;
 }
 
 .nav {
