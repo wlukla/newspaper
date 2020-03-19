@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 20px 10px;
+}
+
+.header {
+  &__main-heading {
+    margin: 0;
+    font-size: 10rem;
+    text-align: center;
+  }
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  width: 100%;
+  background-color: lightgrey;
+  font-size: 2rem;
+}
+
+.nav {
+  width: 50%;
+  font-size: 1.7rem;
+
+  &__list {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+}
