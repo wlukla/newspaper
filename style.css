@@ -65,12 +65,12 @@
   padding-top: 20px;
 }
 
-.top-article__title {
+.title {
   font-size: 2rem;
   margin-bottom: 10px;
 }
 
-.top-article__paragraph {
+.paragraph {
   -webkit-column-count: 3;
           column-count: 3;
   -webkit-column-gap: 40px;
@@ -103,5 +103,29 @@
   margin-top: 5px;
   margin-right: 20px;
   font-size: 1.5rem;
+}
+
+.article__title {
+  margin-top: 20px;
+}
+
+.article-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.article-content__paragraph {
+  -webkit-column-count: 2;
+          column-count: 2;
+  margin-right: 40px;
+}
+
+.article-content__image {
+  width: 30%;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */

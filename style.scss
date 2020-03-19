@@ -57,18 +57,16 @@
   padding-top: 20px;
 }
 
-.top-article {
-  &__title {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
+.title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
 
-  &__paragraph {
-    column-count: 3;
-    column-gap: 40px;
-    text-align: justify;
-    font-size: 1.2rem;
-  }
+.paragraph {
+  column-count: 3;
+  column-gap: 40px;
+  text-align: justify;
+  font-size: 1.2rem;
 }
 
 .blockquote {
@@ -87,5 +85,26 @@
     margin-top: 5px;
     margin-right: 20px;
     font-size: 1.5rem;
+  }
+}
+
+.article {
+  &__title {
+    margin-top: 20px;
+  }
+}
+
+.article-content {
+  display: flex;
+  justify-content: space-between;
+
+  &__paragraph {
+    column-count: 2;
+    margin-right: 40px;
+  }
+
+  &__image {
+    width: 30%;
+    height: auto;
   }
 }
