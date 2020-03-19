@@ -12,7 +12,7 @@ body {
 .wrapper {
   margin: 30px auto;
   max-width: 1020px;
-  padding: 40px 50px;
+  padding: 40px 70px;
   border: 1px solid lightgrey;
   background-color: #fafafa;
   -webkit-box-shadow: -9px 29px 52px 0px rgba(0, 0, 0, 0.5);
@@ -113,11 +113,11 @@ body {
   font-size: 1.5rem;
 }
 
-.article__title {
+.middle-article__title {
   margin-top: 20px;
 }
 
-.article-content {
+.middle-article-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,14 +126,52 @@ body {
           justify-content: space-between;
 }
 
-.article-content__paragraph {
+.middle-article-content__paragraph {
   -webkit-column-count: 2;
           column-count: 2;
   margin-right: 40px;
 }
 
-.article-content__image {
+.middle-article-content__image {
   width: 30%;
   height: auto;
+}
+
+.bottom-article__title {
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.bottom-article__title:before, .bottom-article__title:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 4px;
+  content: '\a0';
+  background-color: #000000;
+}
+
+.bottom-article__title:before {
+  margin-left: -50%;
+  text-align: right;
+}
+
+.bottom-article__title-span {
+  margin: 0 15px;
+}
+
+.bottom-article__image {
+  margin: 20px 0;
+  width: 100%;
+  height: 12rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 /*# sourceMappingURL=style.css.map */
