@@ -4,10 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: darkgrey;
+}
+
 .wrapper {
-  margin: 0 auto;
-  max-width: 980px;
-  padding: 20px 10px;
+  margin: 30px auto;
+  max-width: 1020px;
+  padding: 40px 50px;
+  border: 1px solid lightgrey;
+  background-color: #fafafa;
+  box-shadow: -9px 29px 52px 0px rgba(0, 0, 0, 0.5);
 }
 
 .header {
