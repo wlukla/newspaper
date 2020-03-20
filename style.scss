@@ -31,7 +31,7 @@ body {
   }
 }
 
-.nav-container {
+.keywords-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,18 +47,13 @@ body {
   &__small-date {
     font-size: 1.2rem;
   }
-}
-
-.nav {
-  width: 50%;
-  font-size: 1.7rem;
 
   &__list {
-
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     list-style: none;
+    font-size: 1.5rem;
   }
 }
 
@@ -171,5 +166,6 @@ body {
     margin-right: 20px;
     float: right;
     font-size: 1.3rem;
+    font-weight: bold;
   }
 }

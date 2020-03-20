@@ -31,7 +31,7 @@ body {
   color: #e50000;
 }
 
-.nav-container {
+.keywords-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,22 +46,17 @@ body {
   background-color: lightgrey;
 }
 
-.nav-container__date {
+.keywords-container__date {
   font-size: 2rem;
   text-transform: uppercase;
 }
 
-.nav-container__small-date {
+.keywords-container__small-date {
   font-size: 1.2rem;
 }
 
-.nav {
+.keywords-container__list {
   width: 50%;
-  font-size: 1.7rem;
-}
-
-.nav__list {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,6 +64,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style: none;
+  font-size: 1.5rem;
 }
 
 .main {
@@ -191,5 +187,6 @@ body {
   margin-right: 20px;
   float: right;
   font-size: 1.3rem;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
