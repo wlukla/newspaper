@@ -24,11 +24,23 @@ body {
     margin: 0 0 10px;
     font-size: 9rem;
     text-align: center;
+    cursor: pointer;
+  }
+
+  &__title:hover {
+    color: #e50000;
+
+    .header__title-red {
+      color: black;
+      transition: 0.5s ease;
+    }
   }
 
   &__title-red {
     color: #e50000;
   }
+
+  transition: 0.5s ease-out;
 }
 
 .keywords-container {
@@ -99,16 +111,16 @@ body {
 }
 
 .middle-article-content {
-  display: flex;
-  justify-content: space-between;
+  overflow: auto;
 
   &__paragraph {
+    float: left;
     column-count: 2;
-    margin-right: 40px;
   }
 
   &__image {
-    width: 30%;
+    float: right;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
@@ -150,6 +162,12 @@ body {
     height: 12rem;
     object-fit: cover;
     filter: grayscale(100%);
+    transition: 0.5s ease;
+  }
+
+  &__image:hover {
+    filter: none;
+    transition: 0.5s ease;
   }
 }
 
